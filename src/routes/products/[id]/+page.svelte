@@ -1,7 +1,9 @@
-<script>
-	//coletar id via params
-	//armazenar em variável -> id
-	//passar a variavel id no html abaixo como product {id}
+<script lang="ts">
+	import { page } from '$app/stores';
+	const id = $page.params.id;
+
+	if (!id) throw new Error('Invalid Id');
 </script>
 
-<h1>Product</h1>
+<h1>PRODUCT DETAIL</h1>
+<div>Details about Product-id: {id}</div>
