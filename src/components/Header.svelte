@@ -15,6 +15,7 @@
 					<a href="/">Home</a>
 					<a href="/about">Sobre</a>
 					<a href="/contact">Contato</a>
+					<a href="/blogs">Blog</a>
 				</slot>
 			</nav>
 		{/if}
