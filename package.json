@@ -38,5 +38,10 @@
 		"vite": "^7.0.4",
 		"vite-plugin-devtools-json": "^0.2.0",
 		"vitest": "^3.2.3"
+	},
+	"dependencies": {
+		"@types/bcrypt": "^6.0.0",
+		"bcrypt": "^6.0.0",
+		"crypt": "^0.0.2"
 	}
 }
